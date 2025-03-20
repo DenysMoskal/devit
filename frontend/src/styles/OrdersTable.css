@@ -1,0 +1,65 @@
+.orders-table {
+  height: 100%;
+  color: #333;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.orders-list {
+  width: 100%;
+  border-collapse: collapse;
+  color: #333;
+}
+
+.orders-list th,
+.orders-list td {
+  padding: 12px 8px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.orders-list th {
+  background-color: #fafafa;
+  font-weight: 500;
+  color: #333;
+}
+
+.orders-list tr:hover {
+  background-color: #fafafa;
+}
+
+.id-cell {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  color: #666;
+  text-align: center;
+}
+
+.empty-state p {
+  margin-top: 8px;
+}
+
+.card {
+  color: #333;
+}
+
+.card-title {
+  color: #333;
+}
+
+.card-content {
+  color: #333;
+}
